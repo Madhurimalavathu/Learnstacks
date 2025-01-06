@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(200, 244, 229);
+    background-image: url("D:/LEARNSTACKS/images/bgpp.png"); 
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right center; /* Align the background image to the center right */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-decoration: underline;
+    padding: 7px; /* Adjust the padding to reduce space */
+    text-align: center;
+    color: black; 
+}
+
+main {
+    padding: 20px;
+    margin-top: 40px; /* Reduce the margin-top to decrease space between header and content */
+    text-align: left;
+}
+
+footer {
+    background-color: seagreen;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: black; /* Set main title color to black */
+    text-align: center; /* Center the "Privacy Policy" title */
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: black; /* Set headers color to black */
+    text-align: left; /* Align headers to the left */
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+}

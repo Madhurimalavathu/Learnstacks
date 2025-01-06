@@ -1,0 +1,297 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: black;
+    height: 100%;
+    overflow: auto;
+    background-image: url("ice bear.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    gap: 20px;
+}
+.topic-buttons-container {
+    text-align: center;
+}
+
+.topic-buttons {
+    display: inline-block;
+}
+
+.topic-buttons a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.topic-buttons a:hover {
+    background-color: #ccc;
+    color: #fff;
+    border-color: #999;
+}
+
+.navbar a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+    box-shadow: none;
+}
+
+
+#menu-icon {
+    color: var(--bg-color);
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+
+.text h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: rgba(255, 255, 255, 0); /* Adjust transparency here */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.content {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency here */
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-top: 10px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content .project-ideas {
+    margin-top: 30px;
+}
+
+.content .project-ideas h2 {
+    margin-bottom: 10px;
+}
+
+.content .project-ideas ul {
+    list-style-type: disc;
+}
+
+.content .project-ideas li {
+    margin-left: 25px;
+}
+
+.content .python,
+.content .java,
+.content .cplus,
+.content .chash,
+.content .javascript {
+    margin-top: 30px;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    transition: transform 0.3s ease;
+    color: black; /* Set default link color */
+}
+
+li a:hover {
+    text-decoration: underline;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topic-buttons {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.topic-buttons button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgba(0, 123, 255, 0);
+}
+
+.topic-buttons button:hover {
+    background-color: lemonchiffon; /* Adjust transparency and hover color here */
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.services .heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.services-box {
+    width: 70%; /* Adjust the width as needed */
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid skyblue;
+    transition: .5s ease;
+    background-color: rgba(44, 62, 80, 0);
+}
+.services-box .chash{
+    width: 70%;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid skyblue;
+    transition: .5s ease;
+    background-color: rgba(44, 62, 80, 0);
+}
+
+.services-box:hover {
+    border-color: #34495e;
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: #34495e;
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.services-box h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.services-box ul {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.services-box ul li {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Set color for specific links */
+.services-box ul:nth-of-type(3) li a:first-child,
+.services-box ul:nth-of-type(4) li a:first-child {
+    color: #007bff; /* Set color for the third resource option */
+}
+
+.services-box ul:nth-of-type(5) li a:first-child,
+.services-box ul:nth-of-type(6) li a:first-child {
+    color: #007bff; /* Set color for the first certification option */
+}
